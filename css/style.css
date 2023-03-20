@@ -32,12 +32,11 @@ body {
 }
 /* Header */
 .modal {
-    border: 3px solid var(--color-red);
     border-radius: 45px;
     box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.59);
 }
 .modal__p {
-padding-top: 20px;
+    padding: 20px 10px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -323,7 +322,7 @@ header {
 }
 .p-3__grid-item-img {
     position: relative;
-    top: -40px;
+    top: -70px;
     margin: 0 auto;
     display: block;
 }
@@ -336,6 +335,7 @@ header {
     text-align: center;
     color: #101010;
     padding-bottom: 11px;
+    margin-top: 0;
 }
 .p-3__grid-item-p {
     font-family: 'Roboto';
