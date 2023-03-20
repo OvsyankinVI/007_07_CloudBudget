@@ -9,19 +9,228 @@ html {
     padding: 0;
 }
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     margin: 0;
 }
 /* Variables */
 :root {
-    --color-blue: #00A4E5;
-    --color-grey: #48555B;
+    --color-red: #EE3D1B;
+    --color-dred: #D52047;
     --color-white: #fff;
 }
 /* Overall Width */
 .container {
-    max-width: 940px;
+    max-width: 1020px;
     width: 100%;
     margin: 0 auto;
 }
+@media screen and (max-width: 1020px) {
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
 /* Header */
+header {
+    height: 782px;
+    background-image: url(../img/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header__h1 {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 258px;
+    color: var(--color-white);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.header__p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 540px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.header__button {
+    width: 160px;
+    height: 50px;
+    background-color: #fff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ED4C5C;
+    border-radius: 10px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 205px;
+}
+.header__button:hover {
+    background-color: #e0e0e0;
+}
+
+@media screen and (max-width: 950px) {
+    header {
+        height: 540px;
+    }
+    .header__h1 {
+        padding-top: 150px;
+    }
+    .header__p {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .header__button {
+        margin-bottom: 100px;
+    }
+}
+@media screen and (max-width: 550px) {
+    header {
+        height: 540px;
+    }
+    .header__h1 {
+        padding-top: 135px;
+        font-size: 42px;
+    }
+    .header__p {
+        padding-top: 20px;
+        padding-bottom: 30px;
+        font-size: 16px;
+    }
+    .header__button {
+        margin-bottom: 50px;
+    }
+}
+/* part-1 */
+.p-2__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 125px;
+    align-items: center;
+    margin: 95px 0;
+}
+.p-2__grid-item-1-h {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 46px;
+}
+.p-2__grid-item-1-p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+    color: #000000;
+    margin-bottom: 14px;
+}
+.p-2__grid-item-1-a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+    color: #ED4C5C;
+    text-decoration: none;
+}
+.p-2__grid-item-2-img {
+    width: 445px;
+    height: 311px;
+}
+
+@media screen and (max-width: 950px) {
+    .p-2__grid {
+        display: block;
+    }
+    .p-2__grid-item-2-img {
+        padding-top: 20px;
+        margin: 0 auto;
+        display: block;
+    }
+    .p-2__grid {
+        margin: 40px 0;
+    }
+    .p-2__grid-item-1-h {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 550px) {
+    .p-2__grid {
+        display: block;
+    }
+    .p-2__grid-item-2-img {
+        width: 350px;
+        height: 275px;
+    }
+}
+/* part-2 */
+.part-2 {
+    background-color: #FAFAFA;
+}
+.p-2__h {
+}
+.p-2__grid {
+}
+.p-2__grid-item {
+}
+.p-2__grid-item-img {
+}
+.p-2__grid-item-box {
+}
+.p-2__grid-item-box-h {
+}
+.p-2__grid-item-box-p {
+}
+.h3 {
+}
+.p-2__grid-item-box-a {
+}
+
+
+@media screen and (max-width: px) {
+
+}
+/* part-3 */
+
+
+@media screen and (max-width: px) {
+
+}
+/* part-4 */
+
+
+@media screen and (max-width: px) {
+
+}
+/* part-5 */
+
+
+@media screen and (max-width: px) {
+
+}
+/* footer */
+
+
+@media screen and (max-width: px) {
+
+}
