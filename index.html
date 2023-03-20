@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
     <link rel="shortcut icon" href="img/icon.svg" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,13 +15,29 @@
 </head>
 
 <body>
+    <div id="modal1" class="modal">
+        <p class="modal__p">Заполните форму ниже, и наша служба поддержки свяжется
+            с вами в течение 24 часов.</p>
+        <div class="modal-content">
+            <h5></h5>
+            <input type="text" placeholder="Имя">
+        </div>
+        <div class="modal-content">
+            <h5></h5>
+            <input type="number" placeholder="Номер телефона">
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Отправить</a>
+        </div>
+    </div>
+
     <header id="header">
         <div class="container">
             <h1 class="header__h1">CloudBudget</h1>
             <p class="header__p">Управление бюджетом в для всех.
                 Всего 69,95 € в месяц после 7-дневной
                 пробной версии за 4,99 €</p>
-            <button class="header__button">Поробовать</button>
+            <a href="#modal1" class="modal-trigger"><button class="header__button">Поробовать</button></a>
         </div>
     </header>
 
@@ -91,7 +108,7 @@
                     <h1 class="p-3__grid-item-h1">02</h1>
                     <img src="img/p-3-2.png" alt="p-3" class="p-3__grid-item-img">
                     <h3 class="p-3__grid-item-h3">Безопасность</h3>
-                    <p class="p-3__grid-item-p">Вся  информация хранится на защищенных облачных серверах</p>
+                    <p class="p-3__grid-item-p">Вся информация хранится на защищенных облачных серверах</p>
                 </div>
                 <div class="p-3__grid-item">
                     <h1 class="p-3__grid-item-h1">03</h1>
@@ -111,22 +128,56 @@
 
     <section class="part-4" id="part-4">
         <div class="container">
-
+            <div class="p-1__grid p4__grid">
+                <div class="p-1__grid-item-1">
+                    <h2 class="p-1__grid-item-1-h p4-white">Простое приложение для управления бюджетом</h2>
+                    <p class="p-1__grid-item-1-p p4-white">Наше приложение создано, чтобы вы могли в реальном времени
+                        управлять
+                        своим бюджетом и расходами в режиме онлайн с любого устройства. Оно предоставляет подробные
+                        отчеты о доходах и расходах с графиками, чтобы вы сразу могли увидеть расходы и бюджет. Читайте
+                        ниже, чтобы узнать больше.</p>
+                    <div class="p-4__grid-item-4-flex">
+                        <a href=""><img src="img/p4-1.png" alt="p-4" class="p-4__grid-item-4-flex-img1"></a>
+                        <a href=""><img src="img/p4-2.png" alt="p-4" class="p-4__grid-item-4-flex-img1"></a>
+                    </div>
+                </div>
+                <div class="p-1__grid-item-2">
+                    <img src="img/p4-3.png" alt="p-4" class="p-1__grid-item-2-img">
+                </div>
+            </div>
         </div>
     </section>
 
     <section class="part-5" id="part-5">
         <div class="container">
-
+            <div class="p-1__grid p4__grid">
+                <div class="p-1__grid-item-1">
+                    <h2 class="p-1__grid-item-1-h">Напишите нам</h2>
+                    <p class="p-1__grid-item-1-p">Остались вопросы или опасения? Просто заполните форму ниже, и
+                        наша служба поддержки свяжется с вами в течение 24 часов.</p>
+                </div>
+                <div class="p-1__grid-item-2">
+                    <input type="text" class="p5-int1" placeholder="Имя">
+                    <input type="number" class="p5-int1" placeholder="Телефон">
+                    <button class="header__button p5-b">Отправить</button>
+                </div>
+            </div>
         </div>
     </section>
 
     <footer id="footer">
         <div class="container">
-
+            <h3 class="footer__h">Адрес</h3>
+            <p class="footer__p">Pipang Ltd, Griva Digeni,<br>
+                81-83 Jacovides Tower, 1st Floor<br>
+                1090 Picosia USA<br><br>
+                Copyright 2021 CloudBudget
+            </p>
         </div>
     </footer>
 
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
     <script src="js/main.js"></script>
 </body>
 
