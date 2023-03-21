@@ -13,7 +13,7 @@ body {
     margin: 0;
 }
 /* Variables */
-:root {
+:root { 
     --color-red: #EE3D1B;
     --color-dred: #D52047;
     --color-white: #fff;
